@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "my-universities"
+version = "0.1.0"
+description = ""
+authors = ["kuzminovdmit <kuzminovdmit@gmail.com>"]
+readme = "README.md"
+packages = [{include = "my_universities"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.2"
+scikit-learn = "^1.2.2"
+pandas = "^2.0.0"
+matplotlib = "^3.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
